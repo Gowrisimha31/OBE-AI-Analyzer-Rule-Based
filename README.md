@@ -6,7 +6,7 @@ OBE AI Analyzer is a Rule-Based Educational Analytics System developed for Outco
 
 The system automatically classifies questions according to Bloom's Taxonomy, maps them to Course Outcomes (COs) and Program Outcomes (POs), generates coverage reports, visualizes academic analytics through dashboards, and supports CSV/PDF-based question paper analysis.
 
-This project is implemented without Machine Learning and relies entirely on rule-based classification techniques.
+This project is implemented entirely using rule-based techniques without Machine Learning.
 
 ---
 
@@ -170,7 +170,7 @@ Generate downloadable reports in PDF format.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OBE-AI-Analyzer-Rule-Based.git
+git clone https://github.com/Gowrisimha31/OBE-AI-Analyzer-Rule-Based.git
 ```
 
 ### Navigate to Project
@@ -225,23 +225,23 @@ Generate PDF Report
 
 ### Dashboard
 
-(Add screenshot here)
+*Add dashboard screenshot here*
 
 ### Bloom Distribution Chart
 
-(Add screenshot here)
+*Add Bloom Chart screenshot here*
 
 ### CO Distribution Chart
 
-(Add screenshot here)
+*Add CO Chart screenshot here*
 
 ### Coverage Report
 
-(Add screenshot here)
+*Add Coverage Report screenshot here*
 
 ### PDF Upload and Analysis
 
-(Add screenshot here)
+*Add PDF Upload screenshot here*
 
 ---
 
@@ -257,15 +257,28 @@ This system can be used by:
 
 ---
 
+## Key Highlights
+
+* Fully Rule-Based Implementation
+* No Machine Learning Used
+* Real-Time Question Analysis
+* OBE-Focused Evaluation
+* Interactive Dashboard
+* Automated Report Generation
+* CSV and PDF Support
+* Suitable for Academic Institutions
+
+---
+
 ## Future Scope
 
-### Version 2 (Machine Learning)
+### Version 2 (Machine Learning Based)
 
 Future enhancements may include:
 
 * Machine Learning-Based Bloom Classification
-* Automatic CO Prediction Models
-* Intelligent Recommendation Engine
+* Automated CO Prediction Models
+* Recommendation Engine for Question Paper Improvement
 * Advanced Analytics Dashboard
 * Model Performance Comparison
 
@@ -273,7 +286,9 @@ Future enhancements may include:
 
 ## Author
 
-Developed as an Outcome Based Education (OBE) Analytics Project for Operating Systems Question Paper Analysis.
+**Gowri Simha**
+
+Developed as an academic project for Outcome Based Education (OBE) analysis of Operating Systems question papers.
 
 ---
 
