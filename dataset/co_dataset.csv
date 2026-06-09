@@ -1,0 +1,1033 @@
+question,co
+Classify the different types of system calls with suitable examples.,CO1
+Summarize the concept of process scheduling and its importance in system performance.,CO1
+Apply operating system operations to explain how processes are executed and managed in a system.,CO1
+Apply the functions of an operating system to illustrate how it manages hardware and software resources in a computing environment.,CO1
+Draw the Gantt chart showing process execution.,CO2
+Calculate the waiting time for each process.,CO2
+Calculate the turnaround time for each process.,CO2
+Compute the average waiting time and average turnaround time.,CO2
+Determine the completion time for each process.,CO2
+A system administrator changes the scheduling algorithm from FCFS to Round Robin. Analyze the impact of this change on response time and fairness.,CO1
+"A real-time system experiences delays due to improper CPU allocation. Analyze the scheduling criteria and determine which factor (waiting time, turnaround time, response time) is most impacted.",CO1
+Two processes use semaphores to share a printer. Apply wait() and signal() to ensure no process prints at the same time.,CO2
+"Given two programs, one using contiguous allocation and one using paging, compare their memory efficiency and fragmentation issues.",CO4
+"In a memory allocation scenario with fragmentation, apply paging to eliminate external fragmentation.",CO4
+Apply the concept of demand paging to illustrate how pages are loaded into memory during program execution.,CO2
+"In a shared buffer system, implement synchronization using semaphores to avoid data corruption.",CO1
+A student creates a multi-threaded chat app. Apply mutex locks to handle simultaneous message writes.,CO3
+What is the content of a matrix NEED?,CO1
+"Is the system in Safe state? If yes, give the safe state.",CO1
+"If a request from a process P1 arrives for (0,4,2,0), can the request be granted immediately?",CO2
+Analyze the system by computing the Need matrix.,CO1
+Apply a suitable algorithm that determines whether the system is in a safe state.,CO1
+"If the system is safe, derive a safe sequence; otherwise, justify why the system is unsafe.",CO1
+Analyze the causes and effects of thrashing in modern operating systems.,CO1
+"Compare and analyze FCFS, SJF, and Round Robin scheduling algorithms.",CO2
+Differentiate between logical memory and physical memory with suitable examples.,CO4
+Examine the role of the Translation Lookaside Buffer (TLB) in paging systems.,CO1
+Analyze how deadlocks occur in a multitasking environment.,CO3
+Compare process synchronization mechanisms such as semaphores and monitors.,CO2
+Analyze the working of virtual memory in operating systems.,CO1
+Compare contiguous and non-contiguous memory allocation techniques.,CO4
+Analyze the advantages and disadvantages of multiprocessor systems.,CO1
+Compare demand paging with segmentation memory management.,CO4
+Analyze the role of system calls in operating systems.,CO1
+Evaluate the effectiveness of Round Robin scheduling for time-sharing systems.,CO1
+Justify the use of paging over segmentation in memory management.,CO4
+Criticize the limitations of deadlock avoidance algorithms.,CO3
+Recommend the best disk scheduling algorithm for SSD-based systems.,CO1
+Evaluate the impact of virtual memory on system performance.,CO1
+Evaluate different file allocation methods used in operating systems.,CO1
+Recommend an appropriate scheduling algorithm for real-time systems.,CO1
+Critically evaluate semaphore-based synchronization mechanisms.,CO3
+Justify the need for process scheduling in multiprogramming systems.,CO1
+Evaluate the performance trade-offs between threads and processes.,CO2
+Critically analyze the effectiveness of memory protection mechanisms.,CO3
+Recommend suitable memory allocation techniques for embedded systems.,CO1
+Evaluate the security challenges in modern operating systems.,CO1
+Justify the use of interprocess communication techniques.,CO2
+Design a CPU scheduling algorithm for real-time operating systems.,CO1
+Develop a deadlock prevention strategy for distributed systems.,CO1
+Construct a paging mechanism for virtual memory management.,CO4
+Create a synchronization model using semaphores and mutex locks.,CO3
+Propose a file allocation method for high-speed storage systems.,CO1
+Design an operating system module for process communication.,CO1
+Develop an efficient disk scheduling strategy for cloud environments.,CO2
+Create a custom memory management scheme for gaming systems.,CO1
+Design a multithreaded application to demonstrate process synchronization.,CO2
+Develop a process scheduling simulator using any programming language.,CO2
+Construct a deadlock detection algorithm for multiprocessor systems.,CO1
+Propose an improved virtual memory replacement algorithm.,CO4
+Create a lightweight operating system architecture for IoT devices.,CO1
+Design a secure file management system for distributed environments.,CO1
+Develop a resource allocation framework to avoid starvation.,CO4
+Distinguish between Multiprocessor System and Clustered System.,CO1
+Define operating Systems.,CO1
+Explain the dual-mode operating system with a neat diagram.,CO1
+Explain the concept of the virtual machine.,CO2
+Explain the layered approach of operating system structure with a supporting diagram.,CO1
+What are system calls?,CO1
+Briefly point out the types of system calls with illustrations.,CO1
+Explain the services of the operating system that are helpful for the user and the system.,CO1
+Explain the states of a process with a transition diagram and process control block.,CO2
+What is inter-process communication?,CO1
+Discuss message passing and the shared memory concept of IPC.,CO2
+Calculate average waiting and turnaround times by drawing the Gantt chart using FCFS and RR (q=2ms).,CO2
+Explain five different scheduling criteria used in the computing scheduling mechanism.,CO2
+Calculate the average waiting time and the average turnaround time by drawing the Gantt chart using SRTF and the Priority scheduling algorithm.,CO2
+Define deadlock.,CO3
+What are the necessary conditions for deadlock to occur?,CO1
+Illustrate Peterson’s solution for the critical section problem.,CO3
+What is the content of the need matrix?,CO1
+Is the system in a safe state?,CO1
+"If a request from process P1 arrives for (0,4,2,0), can the request be granted immediately?",CO2
+Explain different methods to recover from deadlocks.,CO3
+What is a resource allocation graph?,CO1
+Consider an example to explain how a resource allocation graph is useful in describing a deadly embrace.,CO4
+What is a semaphore?,CO1
+State the Dining Philosopher problem and give a solution using semaphore.,CO3
+What is TLB?,CO1
+Explain TLB in detail with a paging system with a neat diagram.,CO1
+"Determine the number of page faults using the FIFO, Optimal, and LRU replacement algorithms.",CO4
+Which page replacement algorithm is most efficient?,CO4
+What is demand paging?,CO1
+Explain the steps in handling page faults using the appropriate diagram.,CO4
+What is segmentation?,CO1
+Discuss the structure of the page table with a suitable diagram.,CO1
+What is a file?,CO1
+What are the attributes of a file?,CO1
+Explain file operations.,CO1
+Explain in detail about various file operations in a file system.,CO1
+Discuss various directory structures with neat diagrams.,CO1
+Explain contiguous and linked disk space allocation methods.,CO4
+Explain the access matrix method of system protection with the domain as objects and its implementation.,CO1
+"What is the total disk travelled by the disk arm using FCFS, SSTF, LOOK and CLOOK algorithm?",CO1
+What is a System call?,CO1
+Explain in detail the system call sequence to copy the contents of one file to another file.,CO1
+Provide a detailed explanation of the hierarchical structure and key components that constitute an operating system.,CO1
+"Give an overview of storage structure in computer systems, including the concept of storage hierarchy and the organization of different storage levels to optimize performance, capacity, and access times.",CO1
+"Draw a Gantt chart illustrating the execution of jobs using FCFS, SJF, and Priority preemptive algorithm.",CO2
+Calculate the average waiting time and average turnaround time.,CO2
+Explain the concept of forking to create a separate process.,CO2
+Provide an example code demonstrating the use of fork() to create a child process.,CO2
+Explain the Banker's Algorithm for deadlock avoidance.,CO3
+How does the Banker's Algorithm ensure safe resource allocation?,CO4
+Draw a Gantt chart illustrating the execution of jobs using Round Robin with time quantum = 2 unit.,CO2
+Distinguish between counting and binary semaphores.,CO3
+Suggest a solution to overcome the busy waiting problem.,CO3
+What are the four necessary conditions for deadlock occurrence in a system?,CO1
+Explain each deadlock condition in detail.,CO3
+Describe the concept of resource allocation graphs and how they help in deadlock detection.,CO2
+List the steps involved in handling a page fault.,CO4
+How many page faults would occur for LRU replacement?,CO4
+How many page faults would occur for FIFO replacement?,CO4
+How many page faults would occur for Optimal replacement?,CO4
+Explain the paging hardware with a suitable diagram.,CO4
+What is the effective access time for the memory if one page fault is generated for every 10^6 memory accesses?,CO1
+Explain various file access methods with suitable examples.,CO5
+How can protection be provided to a file system?,CO1
+Provide an overview of mass storage structures in storage management.,CO1
+How do mass storage structures differ from primary storage in terms of capacity and access speed?,CO1
+Describe any two disk scheduling algorithms with suitable illustrations.,CO2
+Give an overview of kernel data structures and their significance in an operating system.,CO1
+"Deduce a detailed note on the computing environment, specifically focusing on mobile computing, cloud computing and virtualization, including their features, benefits, and impact on the overall computing landscape.",CO4
+"Calculate the average waiting time, average turnaround time and response time using FCFS, SJF and Priority preemptive algorithm.",CO2
+Describe the Round Robin scheduling algorithm used in operating systems.,CO1
+How does Round Robin ensure fairness among processes?,CO2
+What is the role of the time quantum in Round Robin scheduling?,CO1
+Provide an example to demonstrate how Round Robin handles process switching and ensures equitable CPU time distribution.,CO2
+Discuss the classical synchronization problem known as the Bounded-Buffer Problem and present a solution to it.,CO3
+Explain the concepts of counting semaphores used in process synchronization.,CO2
+How can counting semaphores be applied to address mutual exclusion and synchronization challenges in concurrent computing?,CO3
+Provide examples to illustrate the use of counting semaphores in different scenarios.,CO3
+How do Mutex locks work?,CO3
+How are Mutex locks used to protect critical sections in multithreaded programs?,CO3
+Describe the Peterson’s solution for the critical section problem.,CO3
+How does Peterson’s solution ensure mutual exclusion?,CO3
+Explain various necessary conditions for a deadlock to occur.,CO3
+Explain deadlock prevention.,CO3
+What is paging in memory management?,CO1
+How does paging work to overcome issues related to contiguous memory allocation?,CO4
+Illustrate paging with an example.,CO4
+Explain the concept of contiguous memory allocation and its advantages and drawbacks.,CO2
+Elaborate on the concept of virtual memory management.,CO2
+"Trace FIFO, Optimal, and LRU page replacement algorithms.",CO4
+Why is demand paging called lazy swapping?,CO4
+Explain demand paging in detail.,CO4
+Explain file attributes.,CO5
+Provide examples of common file attributes.,CO5
+Discuss in detail different file access methods.,CO5
+How can access control lists (ACLs) and capabilities be used to implement the access matrix?,CO5
+What functions do operating systems perform to manage hardware resources and provide user interfaces?,CO1
+Compare and contrast various types of system calls used by operating systems.,CO1
+What is a Process?,CO1
+Explain the different states of a process with a diagram.,CO2
+Analyze how each scheduling criterion influences the selection of processes for execution.,CO2
+Discuss the trade-offs involved in prioritizing one scheduling criterion over another in different scheduling algorithms.,CO2
+Assess which of the algorithms is better.,CO5
+Compare and contrast multilevel queue and multilevel feedback queue scheduling algorithms with appropriate diagrams.,CO2
+Describe the role of semaphores in controlling access to shared resources by multiple readers and writers simultaneously.,CO3
+Analyze the data structures employed in the Banker's algorithm for resource allocation in operating systems.,CO1
+Highlight how the data structures are utilized to prevent deadlock and ensure system stability.,CO1
+Describe the resource allocation graph with deadlock.,CO3
+Describe the resource allocation graph with a cycle but no deadlock.,CO3
+Describe the critical section problem in concurrent programming.,CO3
+Outline the requirements that must be satisfied to address the critical section problem effectively.,CO3
+Using Banker's algorithm determine whether the system is in a safe state.,CO1
+Calculate the Need matrix.,CO5
+Critically analyze the impact of deadlock detection and recovery mechanisms on system performance and resource utilization.,CO1
+Examine the sequence of steps involved in handling page faults in virtual memory management.,CO4
+Analyze how efficient page fault handling strategies contribute to overall memory management effectiveness.,CO4
+"Calculate the page faults using FIFO, Optimal and LRU methods using 3 and 4 frames.",CO4
+Explain the different file access methods in detail.,CO5
+What is the need of page replacement?,CO1
+"Find the number of page faults with FIFO, Optimal Page Replacement and LRU with four free frames which are empty initially.",CO4
+Which page replacement algorithm gives the minimum number of page faults?,CO4
+Explain how ACLs and capabilities enable granular access control and security enforcement within the access matrix framework.,CO5
+Evaluate methods for protecting file systems.,CO1
+"Compare access control lists, file permissions, and encryption mechanisms for their efficacy in safeguarding data integrity and preventing unauthorized access.",CO5
+"Analyze the diverse disk scheduling algorithms used in operating systems, providing examples to illustrate their functioning.",CO1
+"What is the total distance travelled by the disk arm to satisfy the requests using FCFS, SSTF, and SCAN algorithms?",CO1
+"Analyze the Mass Storage Structure overview, detailing its components and organization, emphasizing their roles in data storage and retrieval.",CO1
+Define operating system.,CO1
+Explain the dual mode operation of operating system with a neat diagram.,CO1
+Explain the concept of virtual machines.,CO2
+Explain the responsibilities of OS with respect to process management and file management.,CO2
+Explain the set of operating system services.,CO1
+Explain different types of system calls.,CO1
+What is a process?,CO1
+Explain the process state diagram.,CO2
+Explain different types of multithreading models with a neat diagram.,CO1
+Explain Dining Philosopher's problem using monitors.,CO3
+Explain various types of criteria for scheduling.,CO1
+Explain three types of thread libraries.,CO1
+Draw Gantt charts and calculate average waiting time and average turnaround time for non-preemptive SJF scheduling algorithm.,CO2
+Draw Gantt charts and calculate average waiting time and average turnaround time for preemptive SJF scheduling algorithm.,CO2
+Explain Peterson's solution with its structure.,CO1
+What are deadlocks?,CO1
+Explain the necessary conditions for deadlock occurrence.,CO3
+What is the content of matrix Need?,CO1
+"If a request from process P1 arrives for (1,0,2), can the request be granted immediately?",CO2
+Explain the solutions to external fragmentation.,CO3
+Explain paging hardware with TLB with a neat diagram.,CO4
+What are the methods to recover from deadlock?,CO1
+Explain the structure of page table with respect to hierarchical paging.,CO1
+What is a page fault?,CO1
+Explain the steps involved in handling a page fault with a diagram.,CO4
+How many page faults will occur for FIFO page replacement?,CO4
+How many page faults will occur for LRU page replacement?,CO4
+How many page faults will occur for Optimal page replacement?,CO4
+Explain indexed and linked methods of allocating disk space.,CO5
+Explain various file allocation methods.,CO4
+Explain different file access methods.,CO5
+What is disk scheduling?,CO1
+Explain FCFS disk scheduling with a diagram.,CO2
+Explain SSTF disk scheduling with a diagram.,CO2
+Explain SCAN disk scheduling with a diagram.,CO2
+Write a short note on Linux file system.,CO1
+Write a short note on Linux process management.,CO2
+Explain the several aspects of disk management.,CO5
+Write a short note on components of Linux system.,CO1
+Write a short note on process scheduling in Linux system.,CO1
+Distinguish between multiprocessor systems and clustered systems.,CO1
+Define Operating Systems.,CO1
+Explain dual mode of operating systems with a neat diagram.,CO1
+Explain system calls with an example of handling a user application invoking the open() system call.,CO1
+Illustrate with a neat diagram the different states of a process and control block.,CO2
+Discuss the implementation of IPC using message passing systems in detail.,CO1
+List and explain the services provided by OS for the user and efficient operation of system.,CO1
+Explain CPU scheduling criteria.,CO2
+"Calculate the average waiting time and the average turnaround time by drawing the Gantt chart using FCFS, SRTF, RR (q = 2ms) and priority algorithms.",CO2
+What is critical section problem?,CO1
+What are the requirements for the solution to critical section problem?,CO1
+Explain Peterson's solution.,CO3
+How to prevent the occurrence of deadlock?,CO3
+Explain deadlock prevention in detail.,CO3
+Explain Operating System Structure and components.,CO1
+Discuss multiprocessor systems in detail.,CO1
+Explain in detail the types of system calls provided by a typical operating system.,CO1
+Explain the purpose of system calls and discuss the calls related to device management and communications.,CO1
+"Explain the concepts of virtual machines, their implementation and benefits.",CO2
+What is a virtual machine?,CO1
+List the advantages of virtualization.,CO4
+Explain the creation of a virtual machine with architecture diagram.,CO2
+Write short notes on operating system services and components.,CO1
+Write in detail about real-time systems and multiprocessor systems.,CO1
+Explain the various types of system calls with examples.,CO1
+Discuss the functionality of system boot with respect to operating systems.,CO1
+Discuss the evolution of virtual machines.,CO4
+Explain how virtualization can be implemented in operating systems.,CO1
+Sketch the structure of Direct Memory Access (DMA).,CO1
+Discuss computer system overview with a neat sketch.,CO1
+Enumerate and explain different operating system structures.,CO1
+"Explain system calls, system programs and OS generation.",CO1
+Distinguish between client-server and peer-to-peer models of distributed systems.,CO1
+Describe three general methods for passing parameters to the operating system.,CO1
+How can a system be designed to allow a choice of operating systems during boot?,CO1
+What should a bootstrap program do?,CO1
+Describe the differences between symmetric and asymmetric multiprocessing.,CO2
+What are the advantages and disadvantages of multiprocessor systems?,CO1
+Describe a mechanism for enforcing memory protection.,CO4
+What are the advantages and disadvantages of using the same system call interface for manipulating files and devices?,CO1
+State and explain the major activities of an operating system with regard to file management.,CO1
+Discuss different multiprocessor organizations with block diagrams.,CO2
+Explain multiprocessor and multicore organizations.,CO2
+Discuss Direct Memory Access (DMA).,CO4
+Explain the various structures of an operating system.,CO1
+Describe system calls and system programs with neat sketches.,CO1
+Explain cache memory and its mapping.,CO4
+Describe the evolution of operating systems.,CO1
+Describe operating system operations in detail.,CO1
+Why can the lack of hardware-supported dual mode cause serious shortcomings in an operating system?,CO1
+What problems do caches solve?,CO1
+What problems do caches create?,CO1
+Discuss the major activities of an operating system with regard to file management.,CO1
+"Explain the architecture of simple structure, layered structure, microkernel, modules and hybrid operating systems.",CO1
+"Discuss the pros and cons of single processor systems, multicore systems and clustered systems.",CO1
+Explain the steps involved in transferring historical information from magnetic tape to CPU through storage devices.,CO5
+Explain the importance and need of cache memory with its working principle.,CO4
+Discuss various memory hierarchies with a neat block diagram.,CO4
+Explain the functionality of system boot with respect to operating systems.,CO1
+Explain graceful degradation and fault tolerance in a multiprocessor system.,CO1
+Define virtual machine and explain its working with a neat diagram.,CO4
+What are the benefits of virtual machines?,CO1
+"Define the essential properties of time-sharing, distributed, real-time and multiprogramming operating systems.",CO1
+What is the difference between hard real-time and soft real-time systems?,CO1
+Explain the different services provided by an operating system.,CO1
+What are the major activities of an operating system with regard to process management?,CO1
+What are the main purposes of an operating system?,CO1
+Explain multiprocessor systems.,CO1
+Describe the difference between symmetric and asymmetric multiprocessing.,CO2
+Explain the distinguishing features of real-time systems and multiprocessor systems.,CO1
+Explain the functions of memory management.,CO4
+What is the purpose of system calls?,CO1
+Describe the structure of a Process Control Block (PCB).,CO1
+Explain the Shortest Job First (SJF) scheduling algorithm.,CO2
+Explain the Priority scheduling algorithm.,CO2
+"Calculate average waiting time and average turnaround time using FCFS, preemptive SJF and Round Robin scheduling.",CO2
+Explain the states of a process with a state diagram.,CO2
+Write the structure of a Process Control Block.,CO1
+"Draw Gantt charts and calculate waiting time and turnaround time using FCFS, SJF, Priority and Round Robin scheduling.",CO2
+Explain the Round Robin scheduling algorithm.,CO2
+What are the benefits of multithreaded programming?,CO1
+Explain non-preemptive and preemptive scheduling.,CO2
+Discuss multilevel queue scheduling.,CO2
+Discuss multilevel feedback queue scheduling.,CO2
+"Explain FCFS, RR, SJF and Priority scheduling algorithms with suitable examples.",CO2
+"Write short notes on real-time scheduling, CPU scheduling, dispatcher and preemptive SJF.",CO2
+Explain semaphores.,CO3
+State the dining philosopher problem and give its solution using semaphores.,CO3
+Describe the bounded buffer problem and provide a semaphore-based solution.,CO3
+What is the critical section problem?,CO1
+What are the requirements for a critical section solution?,CO1
+Give a semaphore-based solution to the readers-writers problem.,CO3
+Explain Peterson’s algorithm.,CO3
+Determine whether a given resource allocation state is safe.,CO4
+Explain deadlock prevention methods in detail.,CO3
+Find the Need matrix for a given allocation table.,CO4
+Check whether a system is in a safe state using Banker’s algorithm.,CO1
+Determine the contents of the Need matrix using Banker’s algorithm.,CO5
+Explain deadlock detection and recovery.,CO3
+Describe Banker’s algorithm for deadlock avoidance.,CO3
+Explain the resource allocation graph.,CO4
+State the dining philosopher problem and provide a monitor-based solution.,CO3
+Explain shared pages.,CO4
+Explain hashed page tables.,CO4
+Explain segmentation and compare paging with segmentation.,CO4
+Explain best-fit and first-fit memory allocation algorithms.,CO4
+What is paging? Explain with a neat diagram.,CO1
+Define process scheduling.,CO2
+Define virtual memory.,CO4
+Define paging.,CO4
+Define process control block.,CO2
+Define critical section.,CO3
+List the states of a process.,CO2
+List the services provided by an operating system.,CO1
+List the functions of memory management.,CO4
+List the characteristics of a deadlock.,CO3
+List the types of system calls.,CO1
+Identify the components of an operating system.,CO1
+Identify the conditions required for deadlock.,CO3
+State the purpose of virtual memory.,CO4
+State the objectives of process synchronization.,CO2
+Evaluate the effectiveness of Round Robin scheduling.,CO2
+Evaluate the suitability of paging over segmentation.,CO4
+Justify the use of virtual memory in modern systems.,CO1
+Assess the performance of FCFS scheduling.,CO2
+Assess the advantages of demand paging.,CO4
+Evaluate the impact of deadlocks on system performance.,CO1
+Justify the need for process synchronization.,CO2
+Assess the scalability of distributed operating systems.,CO1
+Evaluate various page replacement algorithms.,CO4
+Critique the limitations of FCFS scheduling.,CO2
+Recommend a suitable scheduling algorithm for real-time systems.,CO1
+Assess the effectiveness of semaphores in synchronization.,CO3
+Justify the use of mutex locks.,CO3
+Evaluate the security advantages of virtualization.,CO4
+Assess the benefits of layered operating systems.,CO1
+Critique different memory allocation techniques.,CO4
+Recommend an efficient file allocation strategy.,CO4
+Evaluate the role of TLB in memory management.,CO4
+Design a CPU scheduling algorithm for cloud systems.,CO1
+Design a deadlock prevention strategy.,CO3
+Design a virtual memory management system.,CO1
+Design a file allocation method for large-scale storage.,CO4
+Create a synchronization solution for producer-consumer problems.,CO3
+Develop a process scheduling policy for real-time applications.,CO2
+Construct a resource allocation graph for the given scenario.,CO4
+Develop a page replacement algorithm.,CO4
+Create a memory management scheme for embedded systems.,CO1
+Design a distributed operating system architecture.,CO1
+Build a synchronization mechanism using semaphores.,CO3
+Develop a scheduling algorithm for multiprocessor systems.,CO1
+Design a virtual machine environment.,CO4
+Construct an efficient storage management framework.,CO5
+Propose an operating system solution for IoT devices.,CO1
+Create a deadlock detection mechanism.,CO3
+Develop a file system structure for high-speed access.,CO1
+Build a demand paging strategy.,CO4
+Design a secure operating system architecture.,CO1
+Analyze the performance of FCFS scheduling.,CO2
+Analyze the causes of process starvation.,CO2
+Analyze the behavior of demand paging.,CO4
+Analyze the causes of deadlock in distributed systems.,CO1
+Compare paging and segmentation.,CO4
+Compare FCFS and Round Robin scheduling.,CO2
+Compare semaphores and mutexes.,CO3
+Examine the working of virtual memory.,CO4
+Examine the role of page replacement algorithms.,CO4
+Analyze process synchronization issues.,CO2
+Analyze memory allocation strategies.,CO4
+Compare monolithic and layered operating systems.,CO1
+Differentiate process and thread concepts.,CO2
+Analyze file allocation methods.,CO4
+Examine resource allocation techniques.,CO4
+Apply Banker's algorithm to determine system safety.,CO1
+Apply FCFS scheduling to calculate waiting time.,CO2
+Apply Round Robin scheduling to compute turnaround time.,CO2
+Implement semaphore operations for synchronization.,CO1
+Use paging to translate logical addresses.,CO4
+Apply demand paging to memory management.,CO4
+Calculate page faults using FIFO replacement.,CO4
+Compute average turnaround time for a process set.,CO2
+Implement a producer-consumer solution.,CO3
+Apply SJF scheduling to the given process set.,CO2
+Use semaphores to solve the dining philosophers problem.,CO3
+Apply mutex locks to synchronize shared resources.,CO3
+Calculate effective memory access time.,CO4
+Implement a page replacement algorithm.,CO4
+Apply segmentation to memory allocation.,CO4
+Compute CPU utilization for a scheduling scenario.,CO2
+Use Banker's algorithm to avoid deadlock.,CO3
+Apply multithreading concepts to a server application.,CO2
+Implement process synchronization using monitors.,CO2
+Apply resource allocation techniques to prevent deadlock.,CO3
+Define an operating system and list its major functions.,CO1
+List the different types of operating systems with examples.,CO1
+State the functions of an operating system kernel.,CO1
+Name the categories of system calls provided by OS.,CO1
+What is a virtual machine in operating system context?,CO1
+Identify the components of a computer system architecture.,CO1
+Mention the services provided by the operating system.,CO1
+Write the definition of microkernel architecture in OS.,CO1
+List the key features of monolithic kernel design.,CO1
+State the purpose of dual mode operation in operating system.,CO1
+Name the layers in a layered operating system architecture.,CO1
+List the system call types in the POSIX interface.,CO1
+Define kernel mode and user mode in operating system.,CO1
+What is the bootstrap process in an operating system?,CO1
+State the difference between multiprogramming and multitasking OS.,CO1
+Explain the layered approach to operating system design.,CO1
+Describe the monolithic kernel architecture and its components.,CO1
+Discuss the microkernel design advantages over monolithic OS kernel.,CO1
+Explain the concept of system calls with POSIX examples.,CO1
+Describe the dual mode operation in operating systems.,CO1
+Discuss the virtual machine concept in operating systems.,CO1
+Explain the difference between kernel space and user space in OS.,CO1
+Summarize the evolution from batch to time-sharing operating systems.,CO1
+Explain the role of system calls in OS services.,CO1
+Describe how the operating system kernel manages hardware resources.,CO1
+Discuss the hybrid kernel approach used in modern operating systems.,CO1
+Explain the concept of virtual machine monitor in operating systems.,CO1
+Describe the structure of a real-time operating system kernel.,CO1
+Discuss the modular approach to operating system design.,CO1
+Explain system programs and their relationship with OS kernel.,CO1
+Apply system calls to create and manage files in Linux kernel.,CO1
+Demonstrate use of fork system call for process creation in OS.,CO1
+Show how user programs access kernel services via system calls.,CO1
+Use system calls to demonstrate file read and write in Unix OS.,CO1
+Apply OS architecture concepts to trace a system call execution path.,CO1
+Demonstrate kernel privilege level switching via system call trap.,CO1
+Show the sequence of kernel operations during a system call in OS.,CO1
+Apply dual mode concept to demonstrate OS protection mechanism.,CO1
+Implement a simple shell program using system calls in Linux.,CO1
+Demonstrate exec system call to load a program in Unix OS.,CO1
+Analyze the advantages of microkernel over monolithic OS architecture.,CO1
+Compare the performance of layered versus monolithic OS designs.,CO1
+Differentiate between user mode and kernel mode execution in OS.,CO1
+Examine structural differences between Windows and Linux kernel.,CO1
+Analyze the role of system calls in operating system security.,CO1
+Compare batch processing and time-sharing operating systems.,CO1
+Differentiate between multiprogramming and multiprocessing OS.,CO1
+Examine how virtualization impacts the operating system design.,CO1
+Compare exokernel and microkernel OS architectures.,CO1
+Analyze the trade-offs in layered versus modular OS kernel design.,CO1
+Differentiate between monolithic and modular kernel OS designs.,CO1
+Examine system call overhead impact on OS performance.,CO1
+Analyze the design trade-offs in real-time versus general purpose OS.,CO1
+Compare the virtual machine monitor types in operating systems.,CO1
+Evaluate design trade-offs in monolithic kernel architecture.,CO1
+Assess suitability of microkernel for embedded real-time systems.,CO1
+Justify use of virtual machines in cloud computing environments.,CO1
+Critique limitations of monolithic OS for modern multi-core hardware.,CO1
+Evaluate security implications of kernel design choices in OS.,CO1
+Recommend the most appropriate OS architecture for IoT devices.,CO1
+Assess the impact of system call overhead on overall OS performance.,CO1
+Justify why modern operating systems use hybrid kernel designs.,CO1
+Critique the layered OS approach for high performance computing.,CO1
+Evaluate effectiveness of virtual machine monitors in OS design.,CO1
+Design an OS architecture for an embedded real-time control system.,CO1
+Develop a kernel structure for a secure operating system.,CO1
+Construct a layered OS design for a cloud computing platform.,CO1
+Propose an OS architecture that balances security and performance.,CO1
+Create a system call interface specification for a custom OS kernel.,CO1
+Design a virtual machine monitor for server consolidation.,CO1
+Develop a microkernel-based OS design for safety-critical systems.,CO1
+Formulate an OS structure for distributed computing environment.,CO1
+Define a process and list its different execution states.,CO2
+List CPU scheduling algorithms used in operating systems.,CO2
+State the purpose of a Process Control Block PCB.,CO2
+Name the fields stored in a Process Control Block.,CO2
+What is context switching in process management?,CO2
+Define a thread and list the differences between process and thread.,CO2
+Identify the necessary conditions for the critical section problem.,CO2
+List Inter Process Communication IPC mechanisms in OS.,CO2
+State the difference between preemptive and non-preemptive scheduling.,CO2
+Define semaphore and list its types in process synchronization.,CO2
+What is a monitor? List its components for process synchronization.,CO2
+List the states in the five-state process model.,CO2
+Define race condition in process synchronization.,CO2
+State the purpose of mutex in process synchronization.,CO2
+Define priority inversion in CPU scheduling.,CO2
+Explain Round Robin CPU scheduling algorithm with example.,CO2
+Describe working of First Come First Served FCFS CPU scheduling.,CO2
+Discuss concept of Shortest Job First SJF CPU scheduling.,CO2
+Explain producer consumer problem using semaphore in OS.,CO2
+Describe how semaphore solves the critical section problem.,CO2
+Explain multithreading concept and its advantages in process management.,CO2
+Discuss dining philosophers problem and process synchronization.,CO2
+Describe process creation and termination in UNIX OS.,CO2
+Explain priority CPU scheduling with preemption and aging technique.,CO2
+Describe monitor mechanism for process synchronization.,CO2
+Discuss readers writers problem and semaphore solution.,CO2
+Explain multilevel feedback queue CPU scheduling algorithm.,CO2
+Describe Shortest Remaining Time First SRTF CPU scheduling.,CO2
+Explain Peterson solution for critical section in process synchronization.,CO2
+Discuss the CPU scheduling criteria and performance metrics.,CO2
+Explain spinlock concept in process synchronization.,CO2
+Describe concept of thread-level parallelism in CPU scheduling.,CO2
+Calculate average waiting time for FCFS CPU scheduling algorithm.,CO2
+Apply Round Robin CPU scheduling with quantum 3 and compute waiting time.,CO2
+Solve critical section problem using Peterson algorithm.,CO2
+Implement semaphore solution for readers writers problem.,CO2
+Compute CPU utilization for multilevel queue scheduling.,CO2
+Simulate SJF CPU scheduling for given set of processes.,CO2
+Apply priority CPU scheduling and draw Gantt chart.,CO2
+Calculate turnaround time using SRTF preemptive CPU scheduling.,CO2
+Use Round Robin to compute response time for each process.,CO2
+Apply FCFS CPU scheduling to determine waiting time per process.,CO2
+Calculate average waiting time using Round Robin scheduling.,CO2
+Apply preemptive SJF scheduling and compute average turnaround time.,CO2
+Simulate process execution using FCFS CPU scheduling algorithm.,CO2
+Calculate Gantt chart for priority CPU scheduling with aging.,CO2
+Apply semaphore operations to solve bounded buffer problem.,CO2
+Analyze performance of FCFS versus SJF CPU scheduling algorithms.,CO2
+Compare Round Robin and Multilevel Queue CPU scheduling algorithms.,CO2
+Differentiate between user level threads and kernel level threads.,CO2
+Examine starvation problem in priority CPU scheduling.,CO2
+Analyze effectiveness of semaphores versus monitors for synchronization.,CO2
+Compare IPC mechanisms in terms of speed and complexity.,CO2
+Examine trade-offs between cooperative and preemptive multitasking.,CO2
+Analyze performance impact of context switching overhead in OS.,CO2
+Differentiate between hard real-time and soft real-time CPU scheduling.,CO2
+Compare efficiency of mutex locks versus counting semaphores.,CO2
+Analyze priority inversion problem in process scheduling.,CO2
+Differentiate between preemptive and non-preemptive CPU scheduling.,CO2
+Examine the convoy effect in FCFS CPU scheduling.,CO2
+Analyze the impact of quantum size on Round Robin scheduling performance.,CO2
+Evaluate which CPU scheduling algorithm is best for time-sharing systems.,CO2
+Assess impact of context switching overhead on system performance.,CO2
+Justify use of monitors over semaphores in concurrent programming.,CO2
+Critique limitations of Peterson solution for mutual exclusion.,CO2
+Assess suitability of POSIX threads for high-performance parallel computing.,CO2
+Recommend synchronization mechanism for database transaction management.,CO2
+Evaluate fairness of Round Robin versus priority CPU scheduling.,CO2
+Justify use of aging to prevent starvation in priority CPU scheduling.,CO2
+Assess effectiveness of multilevel feedback queue scheduling.,CO2
+Evaluate the impact of quantum time on Round Robin CPU performance.,CO2
+Design a CPU scheduling algorithm for a real-time operating system.,CO2
+Develop a monitor-based solution to the readers writers problem.,CO2
+Construct a process synchronization mechanism for a banking application.,CO2
+Formulate a scheduling policy for a multimedia operating system.,CO2
+Create a priority-based thread pool architecture for a web server.,CO2
+Design a fair multi-level CPU scheduler with dynamic priority adjustment.,CO2
+Develop a semaphore-based solution to the bounded buffer problem.,CO2
+Propose a thread scheduling framework for a cloud computing platform.,CO2
+Define paging and list the components of a page table.,CO3
+List the different page replacement algorithms.,CO3
+State the differences between internal and external memory fragmentation.,CO3
+Define virtual memory and mention its advantages.,CO3
+Name the fields stored in a page table entry.,CO3
+What is a Translation Lookaside Buffer TLB in memory management?,CO3
+Define thrashing in virtual memory management.,CO3
+List the memory allocation strategies used in operating systems.,CO3
+Define segmentation and list the fields in a segment table.,CO3
+State the difference between logical address and physical address.,CO3
+Define demand paging in virtual memory systems.,CO3
+What is a page fault in virtual memory management?,CO3
+Explain the working of demand paging with a suitable diagram.,CO3
+Describe the LRU Least Recently Used page replacement algorithm.,CO3
+Explain segmentation memory management with an example.,CO3
+Discuss the concept of thrashing and how to prevent it in virtual memory.,CO3
+Describe First Fit Best Fit and Worst Fit memory allocation strategies.,CO3
+Explain how TLB improves memory access performance.,CO3
+Describe the working of an inverted page table.,CO3
+Explain the concept of copy-on-write in virtual memory management.,CO3
+Discuss the buddy system memory allocation scheme.,CO3
+Explain the working of multilevel paging.,CO3
+Describe the working set model for memory management.,CO3
+Explain the clock algorithm for page replacement in virtual memory.,CO3
+Describe the concept of page sharing in virtual memory management.,CO3
+Explain the structure of a page table in 64-bit systems.,CO3
+Discuss the concept of memory allocation using best fit strategy.,CO3
+Calculate page faults using FIFO page replacement for given reference string.,CO3
+Apply LRU page replacement algorithm to reference string and find page faults.,CO3
+Compute effective memory access time given a TLB hit ratio.,CO3
+Solve memory allocation using best fit strategy for given partitions.,CO3
+Demonstrate optimal page replacement algorithm for given reference string.,CO3
+Apply paging technique to translate logical addresses to physical.,CO3
+Compute the size of page table given logical and physical address space.,CO3
+Calculate page faults using clock second chance page replacement.,CO3
+Apply second chance page replacement to given page reference string.,CO3
+Solve address translation using two-level paging for logical address.,CO3
+Use working set model to calculate number of frames needed for process.,CO3
+Apply first fit memory allocation for given memory partition table.,CO3
+Calculate internal fragmentation for paging with given page size.,CO3
+Apply LFU Least Frequently Used page replacement to reference string.,CO3
+Compute effective access time with demand paging and TLB.,CO3
+Analyze Belady anomaly with example for FIFO page replacement.,CO3
+Compare paging and segmentation in terms of fragmentation and performance.,CO3
+Differentiate between FIFO and LRU page replacement algorithms.,CO3
+Examine effects of page size on TLB performance and memory overhead.,CO3
+Analyze working set model effectiveness in preventing thrashing.,CO3
+Compare fixed allocation and variable allocation page frame strategies.,CO3
+Differentiate between local and global page replacement policies.,CO3
+Examine impact of page fault frequency on memory allocation.,CO3
+Analyze the memory hierarchy impact on virtual memory performance.,CO3
+Compare demand paging and pre-paging virtual memory strategies.,CO3
+Differentiate between swapping and virtual memory paging techniques.,CO3
+Examine thrashing condition detection and prevention in virtual memory.,CO3
+Compare clock algorithm and LRU approximation for page replacement.,CO3
+Evaluate effectiveness of LRU versus Optimal page replacement.,CO3
+Assess trade-offs between segmentation and paging memory techniques.,CO3
+Justify use of demand paging over static memory allocation.,CO3
+Assess suitability of working set model versus LRU approximation.,CO3
+Justify use of copy-on-write for forked processes in Linux.,CO3
+Recommend memory allocation strategy for embedded real-time systems.,CO3
+Evaluate TLB performance impact on memory-intensive applications.,CO3
+Critique limitations of FIFO page replacement in virtual memory OS.,CO3
+Justify selection of page replacement policy for a DBMS system.,CO3
+Evaluate impact of page size on operating system memory performance.,CO3
+Design a memory management scheme for a multiprogramming OS.,CO3
+Develop a virtual memory management policy for a database server.,CO3
+Create a segmented paging memory system design for 64-bit OS.,CO3
+Construct a page replacement policy for high-performance computing.,CO3
+Propose a memory management framework for real-time embedded OS.,CO3
+Design a hybrid memory allocation strategy for cloud computing.,CO3
+Develop a virtual memory system design for embedded Linux.,CO3
+Formulate a TLB management scheme for a multi-processor OS.,CO3
+Define a file system and list its primary functions.,CO4
+List the file allocation methods in operating systems.,CO4
+State the structure of an inode in UNIX file system.,CO4
+Name the types of file access methods in operating systems.,CO4
+What is a directory? List the directory structures used in OS.,CO4
+Define free space management and list techniques used in file system.,CO4
+List the file protection mechanisms in operating systems.,CO4
+Define hard link and soft link in UNIX file system.,CO4
+List the file operations supported by an operating system.,CO4
+State the structure of a File Allocation Table FAT.,CO4
+Define indexed file allocation and list its advantages.,CO4
+State the difference between sequential and direct file access.,CO4
+Explain the indexed file allocation method with a suitable diagram.,CO4
+Describe the structure and working of FAT file system.,CO4
+Explain the concept of inode and its role in UNIX file system.,CO4
+Discuss the linked file allocation method and its disadvantages.,CO4
+Explain directory implementation using linear list and hash table.,CO4
+Describe the access control list ACL mechanism in file systems.,CO4
+Explain the hierarchical directory structure with examples.,CO4
+Discuss the journaling file system concept and its advantages.,CO4
+Describe contiguous file allocation and its advantages.,CO4
+Explain UNIX inode structure with direct and indirect blocks.,CO4
+Describe the concept of mounting a file system.,CO4
+Explain free space management using bitmap method in file system.,CO4
+Describe the virtual file system VFS layer in operating systems.,CO4
+Explain the concept of file system buffering and caching.,CO4
+Apply indexed allocation method to allocate disk blocks for a file.,CO4
+Demonstrate free space management using bitmap method in file system.,CO4
+Show how a file is accessed using inode structure in UNIX.,CO4
+Calculate disk blocks accessed using linked file allocation.,CO4
+Apply contiguous allocation to assign disk space for set of files.,CO4
+Show directory tree structure for a given set of files.,CO4
+Demonstrate linked allocation by tracing file blocks on disk.,CO4
+Calculate number of disk accesses using indexed file allocation.,CO4
+Apply FAT file system to trace the allocation of blocks for a file.,CO4
+Show how UNIX inode handles large files with triple indirect blocks.,CO4
+Apply bitmap to find free disk blocks in file system.,CO4
+Calculate access time for a file using indexed file allocation.,CO4
+Analyze advantages and disadvantages of contiguous file allocation.,CO4
+Compare FAT file system with UNIX inode based file system.,CO4
+Differentiate between absolute and relative path names in file system.,CO4
+Examine performance implications of different directory structures.,CO4
+Analyze external fragmentation problem in contiguous file allocation.,CO4
+Compare journaling and non-journaling file systems for consistency.,CO4
+Differentiate between FAT32 and NTFS file system structures.,CO4
+Examine trade-offs between linked and indexed file allocation.,CO4
+Analyze performance of hash-based directory lookup in file system.,CO4
+Compare block-level and file-level storage management.,CO4
+Differentiate between local and network file systems.,CO4
+Evaluate suitability of different file allocation methods for large files.,CO4
+Assess effectiveness of journaling in ensuring file system consistency.,CO4
+Justify why UNIX uses inode-based allocation over FAT file system.,CO4
+Critique use of contiguous allocation for modern large storage devices.,CO4
+Evaluate impact of directory structure on file system performance.,CO4
+Recommend appropriate file system for a mobile embedded device.,CO4
+Assess suitability of FAT for removable storage devices.,CO4
+Justify selection of ext4 over ext2 for Linux file system.,CO4
+Design a file system structure for a distributed database application.,CO4
+Propose a file protection and access control scheme for multi-user OS.,CO4
+Develop an access control model for a secure multi-user file system.,CO4
+Construct a hierarchical file system for network-attached storage.,CO4
+Create a virtual file system layer for cross-platform OS compatibility.,CO4
+Formulate a file recovery mechanism for a journaling file system.,CO4
+Design an encrypted file system for secure data storage.,CO4
+Develop a distributed file system design for cloud storage.,CO4
+Define deadlock and list the four necessary conditions.,CO5
+State the steps of Banker algorithm for deadlock avoidance.,CO5
+List the methods for handling deadlock in operating systems.,CO5
+Name the components of a resource allocation graph.,CO5
+Define safe state and unsafe state in deadlock avoidance.,CO5
+What is circular wait? State its role in causing deadlock.,CO5
+List resources that can potentially cause deadlock in OS.,CO5
+State the difference between deadlock avoidance and deadlock prevention.,CO5
+Define the need matrix in the Banker algorithm for deadlock.,CO5
+List the four conditions for deadlock occurrence.,CO5
+Explain the resource allocation graph and how it detects deadlock.,CO5
+Describe the Banker algorithm for deadlock avoidance.,CO5
+Discuss methods of deadlock prevention in operating systems.,CO5
+Explain wait-for graph and its use in deadlock detection.,CO5
+Describe how deadlock recovery is performed in OS.,CO5
+Explain the concept of safe sequence in Banker algorithm.,CO5
+Discuss ostrich algorithm approach to handling deadlock.,CO5
+Describe the hold and wait condition and how to eliminate deadlock.,CO5
+Explain mutual exclusion role in deadlock conditions.,CO5
+Describe deadlock recovery using process termination and preemption.,CO5
+Explain the significance of safe state in Banker algorithm.,CO5
+Discuss the no preemption condition in deadlock formation.,CO5
+Apply Banker algorithm to determine if system is in a safe state.,CO5
+Solve deadlock detection problem using resource allocation graph.,CO5
+Demonstrate deadlock prevention using resource ordering technique.,CO5
+Apply safety algorithm to find all safe sequences for given allocation.,CO5
+Compute whether resource request can be granted using Banker algorithm.,CO5
+Use Banker algorithm to check if new resource request leads to safe state.,CO5
+Apply deadlock detection algorithm to identify deadlocked processes.,CO5
+Simulate deadlock recovery by selecting victim process for termination.,CO5
+Apply resource allocation graph algorithm to detect deadlock.,CO5
+Use safety algorithm to verify safe sequence after resource allocation.,CO5
+Apply Banker algorithm to compute maximum need matrix.,CO5
+Simulate deadlock prevention using resource ordering scheme.,CO5
+Analyze conditions under which circular wait occurs in resource allocation.,CO5
+Compare deadlock prevention and deadlock avoidance strategies.,CO5
+Differentiate between deadlock detection and deadlock prevention.,CO5
+Examine trade-off between resource utilization and deadlock safety.,CO5
+Analyze resource allocation graph to identify deadlock in scenario.,CO5
+Examine performance overhead of deadlock detection algorithm.,CO5
+Differentiate between deadlock and livelock in operating systems.,CO5
+Analyze deadlock conditions in a multithreaded Java application.,CO5
+Compare single-instance and multi-instance resource deadlock detection.,CO5
+Analyze how hold-and-wait contributes to deadlock formation.,CO5
+Differentiate safe state and unsafe state in deadlock avoidance.,CO5
+Compare Banker algorithm with resource allocation graph deadlock method.,CO5
+Analyze deadlock in dining philosophers synchronization problem.,CO5
+Differentiate deadlock prevention by preemption and by resource ordering.,CO5
+Examine deadlock conditions in multi-resource OS environment.,CO5
+Analyze circular wait prevention impact on system throughput.,CO5
+Compare deadlock avoidance and deadlock recovery efficiency.,CO5
+Differentiate Banker algorithm and wait-for graph deadlock methods.,CO5
+Examine deadlock handling trade-offs in real-time operating systems.,CO5
+Analyze resource utilization implications of deadlock avoidance.,CO5
+Compare deadlock detection frequency and its performance impact.,CO5
+Differentiate between resource preemption and process kill in deadlock.,CO5
+Examine deadlock in distributed operating systems.,CO5
+Analyze the no preemption condition impact on deadlock formation.,CO5
+Evaluate Banker algorithm practicality and overhead.,CO5
+Assess effectiveness of different deadlock handling strategies.,CO5
+Critique assumptions made in Banker algorithm for deadlock avoidance.,CO5
+Justify why deadlock avoidance is preferred over prevention in databases.,CO5
+Justify when deadlock detection with recovery is better than avoidance.,CO5
+Recommend a deadlock handling strategy for airline reservation system.,CO5
+Assess impact of deadlock on overall system availability.,CO5
+Evaluate cost of implementing Banker algorithm in a production OS.,CO5
+Critique limitations of resource allocation graph for multi-instance.,CO5
+Evaluate deadlock handling techniques in distributed operating systems.,CO5
+Assess suitability of preemption-based deadlock recovery.,CO5
+Justify use of timeout for deadlock resolution in DBMS.,CO5
+Evaluate overhead of maintaining allocation state for Banker algorithm.,CO5
+Critique static resource count assumption in Banker algorithm.,CO5
+Assess deadlock avoidance techniques for real-time OS requirements.,CO5
+Justify why mutual exclusion cannot be eliminated in most systems.,CO5
+Evaluate effectiveness of circular wait prevention by resource ordering.,CO5
+Recommend best deadlock handling strategy for operating system kernel.,CO5
+Assess impact of deadlock recovery by process termination on system.,CO5
+Critique the ostrich algorithm for handling deadlock in practice.,CO5
+Design a deadlock-free resource allocation system for an OS.,CO5
+Develop a deadlock detection and recovery mechanism for a database.,CO5
+Construct a distributed deadlock detection algorithm for cloud platform.,CO5
+Propose a resource allocation protocol that guarantees deadlock freedom.,CO5
+Create a resource management system implementing Banker deadlock avoidance.,CO5
+Design a deadlock prevention framework for a multi-threaded application.,CO5
+Develop a deadlock-free IPC mechanism for distributed OS.,CO5
+Formulate a safe resource allocation graph manager for OS.,CO5
+Define disk scheduling and list the disk scheduling algorithms.,CO6
+State the working principle of Direct Memory Access DMA.,CO6
+List the components of the I/O subsystem in operating systems.,CO6
+Name the types of RAID levels used in storage systems.,CO6
+Define spooling and state its purpose in I/O management.,CO6
+What is buffering in I/O management? List the types.,CO6
+List the steps involved in hardware interrupt handling.,CO6
+State the role of device driver in operating system I/O.,CO6
+Define seek time and rotational latency in disk scheduling.,CO6
+List the types of disk scheduling algorithms used in OS.,CO6
+Explain the SSTF disk scheduling algorithm with an example.,CO6
+Describe the SCAN and C-SCAN disk scheduling algorithms.,CO6
+Explain the concept of DMA and its advantage over programmed I/O.,CO6
+Discuss working of LOOK and C-LOOK disk scheduling algorithms.,CO6
+Describe the structure of RAID and explain RAID 5 configuration.,CO6
+Explain the interrupt-driven I/O mechanism in operating systems.,CO6
+Discuss the role of spooling in printer I/O management.,CO6
+Describe the kernel I/O subsystem and its functions.,CO6
+Explain the FCFS disk scheduling algorithm with example.,CO6
+Discuss the disk structure including cylinders tracks and sectors.,CO6
+Explain the difference between polling and interrupt-driven I/O.,CO6
+Describe RAID 1 and RAID 0 storage configurations.,CO6
+Explain the concept of rotational latency in disk I/O.,CO6
+Describe the working of DMA for data transfer in OS.,CO6
+Discuss the structure of interrupt handler in operating system.,CO6
+Calculate total disk arm movement for FCFS SSTF SCAN given request queue.,CO6
+Apply C-SCAN disk scheduling to given request queue and compute seek time.,CO6
+Demonstrate LOOK disk scheduling algorithm on given request sequence.,CO6
+Compute disk seek time using SSTF disk scheduling algorithm.,CO6
+Apply SCAN disk scheduling algorithm to optimize disk arm movement.,CO6
+Use LOOK disk scheduling to compute total head movement.,CO6
+Calculate disk access time using C-SCAN algorithm for request queue.,CO6
+Apply SSTF disk scheduling algorithm to minimize total seek time.,CO6
+Compute total seek time using FCFS disk scheduling algorithm.,CO6
+Apply C-LOOK disk scheduling and find total disk head movement.,CO6
+Calculate total head movement using SCAN disk scheduling.,CO6
+Apply LOOK disk scheduling algorithm for given disk request queue.,CO6
+Compute average seek time for SSTF disk scheduling algorithm.,CO6
+Analyze performance of FCFS versus SCAN disk scheduling algorithms.,CO6
+Compare RAID 1 RAID 5 and RAID 6 in terms of performance and fault tolerance.,CO6
+Differentiate between polling and interrupt-driven I/O mechanisms.,CO6
+Examine starvation problem in SSTF disk scheduling algorithm.,CO6
+Analyze trade-offs between different RAID storage configurations.,CO6
+Compare I/O performance of polling and DMA based data transfer.,CO6
+Examine fault tolerance mechanisms in RAID 5 configuration.,CO6
+Compare hardware RAID versus software RAID implementations.,CO6
+Analyze I/O bottleneck in database servers using disk scheduling.,CO6
+Differentiate between SCAN and LOOK disk scheduling algorithms.,CO6
+Examine write performance impact across different RAID levels.,CO6
+Compare FCFS and SSTF disk scheduling in terms of throughput.,CO6
+Analyze DMA controller effectiveness in reducing CPU overhead for I/O.,CO6
+Differentiate C-SCAN and C-LOOK disk scheduling algorithms.,CO6
+Examine seek time impact on overall disk I/O performance.,CO6
+Compare reliability of RAID 0 and RAID 1 storage configurations.,CO6
+Analyze performance implications of interrupt-driven versus DMA I/O.,CO6
+Differentiate between buffering and caching in I/O management.,CO6
+Examine disk scheduling trade-offs for real-time OS workloads.,CO6
+Analyze advantages of LOOK over SCAN in disk scheduling.,CO6
+Compare spooling and buffering techniques in I/O management.,CO6
+Examine RAID 10 versus RAID 5 for database server workloads.,CO6
+Differentiate between disk scheduling strategies for HDD and SSD.,CO6
+Analyze the convoy effect in FCFS disk scheduling algorithm.,CO6
+Evaluate suitability of disk scheduling algorithms for SSD drives.,CO6
+Assess performance of RAID 5 versus RAID 10 for a web server.,CO6
+Justify why DMA is more efficient than programmed I/O for large transfers.,CO6
+Recommend optimal disk scheduling algorithm for SSD storage devices.,CO6
+Evaluate role of DMA controller in reducing CPU processing overhead.,CO6
+Assess trade-off between RAID 5 and RAID 10 for hospital database.,CO6
+Justify choice of SCAN over FCFS for high-throughput disk server.,CO6
+Evaluate effectiveness of RAID 6 for fault-tolerant storage systems.,CO6
+Critique use of SSTF disk scheduling for interactive I/O systems.,CO6
+Recommend RAID configuration for high-availability cloud storage.,CO6
+Assess I/O performance bottleneck in a multimedia streaming server.,CO6
+Evaluate interrupt-driven I/O versus DMA for embedded system OS.,CO6
+Justify use of C-SCAN over SCAN for uniform disk wear distribution.,CO6
+Critique SSTF disk scheduling effectiveness for preventing starvation.,CO6
+Recommend a disk scheduling policy for a database transaction system.,CO6
+Evaluate performance of spooling for high-volume print environments.,CO6
+Assess suitability of RAID 1 versus RAID 5 for small database servers.,CO6
+Justify when DMA is preferred over interrupt-driven I/O in OS design.,CO6
+Evaluate impact of disk scheduling on database query response time.,CO6
+Critique FCFS disk scheduling for workloads with mixed request sizes.,CO6
+Design an I/O scheduling system for a high-performance database server.,CO6
+Develop a RAID configuration plan for a fault-tolerant storage system.,CO6
+Propose an optimized disk scheduling policy for a multimedia server.,CO6
+Create a disk scheduling simulator for comparing multiple algorithms.,CO6
+Develop an interrupt service routine for a high-speed network interface.,CO6
+Design a unified I/O framework for heterogeneous storage devices.,CO6
+Construct a smart buffer management system for I/O optimization.,CO6
+Formulate a RAID management system for an enterprise data center.,CO6
+Analyze the circular wait condition and its role in deadlock.,CO5
+Compare the deadlock prevention strategies for different OS types.,CO5
+Differentiate between deadlock in single-instance and multi-instance resources.,CO5
+Examine the Banker algorithm steps for deadlock avoidance.,CO5
+Analyze the resource allocation graph for detecting deadlock cycles.,CO5
+Compare wait-for graph and resource allocation graph for deadlock.,CO5
+Differentiate between deadlock avoidance and deadlock recovery methods.,CO5
+Examine how the no preemption condition contributes to deadlock.,CO5
+Analyze the safe state concept in the Banker algorithm.,CO5
+Compare deadlock in dining philosophers and real OS scenarios.,CO5
+Differentiate between starvation and deadlock in resource allocation.,CO5
+Examine the deadlock handling overhead in operating systems.,CO5
+Analyze the trade-offs between deadlock prevention and system performance.,CO5
+Compare the effectiveness of Banker algorithm versus resource allocation graph.,CO5
+Examine the role of mutual exclusion in deadlock formation.,CO5
+Analyze the Banker algorithm need matrix for resource requests.,CO5
+Compare the time complexity of different deadlock detection algorithms.,CO5
+Differentiate between hold-and-wait and no preemption deadlock conditions.,CO5
+Examine how circular wait can be prevented using resource ordering.,CO5
+Analyze the impact of deadlock on system throughput and performance.,CO5
+Compare Banker algorithm and ostrich algorithm for deadlock handling.,CO5
+Differentiate between global and local deadlock in distributed OS.,CO5
+Examine deadlock in multi-threaded database transaction management.,CO5
+Analyze the resource utilization trade-off in Banker algorithm.,CO5
+Compare the four necessary deadlock conditions and their prevention.,CO5
+Differentiate between preemptive and non-preemptive deadlock recovery.,CO5
+Examine the deadlock conditions for reader-writer lock scenarios.,CO5
+Analyze the probability of deadlock in high-load OS environments.,CO5
+Compare deadlock in distributed systems versus single-machine OS.,CO5
+Differentiate between conservative and optimistic deadlock avoidance.,CO5
+Evaluate the practicality of Banker algorithm in modern operating systems.,CO5
+Assess the deadlock avoidance overhead versus system performance gain.,CO5
+Justify the selection of deadlock detection over prevention in databases.,CO5
+Critique the assumptions of Banker algorithm for deadlock avoidance.,CO5
+Recommend the best deadlock handling strategy for a web server OS.,CO5
+Evaluate the effectiveness of circular wait prevention in resource management.,CO5
+Assess the impact of frequent deadlock detection on system throughput.,CO5
+Justify the use of resource ordering to eliminate deadlock conditions.,CO5
+Critique the limitations of static allocation in Banker algorithm.,CO5
+Evaluate the trade-offs between deadlock prevention and CPU utilization.,CO5
+Assess the suitability of Banker algorithm for real-time systems.,CO5
+Justify the preference for deadlock avoidance in transaction processing.,CO5
+Critique the performance cost of maintaining Banker algorithm state.,CO5
+Evaluate deadlock recovery by process termination versus preemption.,CO5
+Assess the effectiveness of timeout-based deadlock resolution.,CO5
+Justify the use of wait-for graph for deadlock detection in DBMS.,CO5
+Critique the hold-and-wait prevention strategy for OS design.,CO5
+Evaluate the scalability of Banker algorithm for large-scale systems.,CO5
+Assess the deadlock probability in multi-process OS environments.,CO5
+Justify why deadlock ignorance is acceptable in general-purpose OS.,CO5
+Critique the mutual exclusion condition and possible alternatives.,CO5
+Evaluate the performance of deadlock avoidance in distributed systems.,CO5
+Assess the cost-benefit of implementing deadlock prevention in OS.,CO5
+Justify the resource preemption strategy for deadlock recovery.,CO5
+Critique the no preemption condition elimination approach in OS.,CO5
+Evaluate the effectiveness of two-phase locking for deadlock avoidance.,CO5
+Assess the deadlock handling requirements for safety-critical OS.,CO5
+Justify the selection of deadlock detection for cloud computing OS.,CO5
+Critique the circular wait prevention using resource ordering.,CO5
+Evaluate the impact of deadlock prevention on OS system call performance.,CO5
+Analyze the performance comparison of SSTF versus C-SCAN disk scheduling.,CO6
+Compare the seek time of FCFS and SCAN disk scheduling algorithms.,CO6
+Differentiate between the elevator algorithm and LOOK disk scheduling.,CO6
+Examine the starvation issue in SSTF disk scheduling algorithm.,CO6
+Analyze the RAID 5 performance for read and write I/O operations.,CO6
+Compare the fault tolerance of RAID 6 versus RAID 5 configurations.,CO6
+Differentiate between software RAID and hardware RAID I/O performance.,CO6
+Examine the DMA transfer efficiency versus interrupt-driven I/O.,CO6
+Analyze the disk arm movement in C-LOOK versus C-SCAN scheduling.,CO6
+Compare RAID 1 and RAID 10 configurations for database servers.,CO6
+Differentiate between buffering and caching in I/O performance.,CO6
+Examine the rotational latency impact on disk scheduling efficiency.,CO6
+Analyze the I/O throughput of different disk scheduling policies.,CO6
+Compare polling and DMA for I/O performance in embedded systems.,CO6
+Examine the RAID write penalty in RAID 5 storage systems.,CO6
+Analyze the disk scheduling fairness in SCAN algorithm.,CO6
+Compare the LOOK and C-LOOK disk scheduling performance.,CO6
+Examine the I/O performance bottleneck in file server systems.,CO6
+Analyze the seek time optimization in SSTF disk scheduling.,CO6
+Compare head movement in SCAN versus LOOK disk scheduling.,CO6
+Differentiate between RAID 0 and RAID 5 performance characteristics.,CO6
+Examine the DMA controller role in reducing CPU I/O overhead.,CO6
+Analyze the disk scheduling impact on database query performance.,CO6
+Compare interrupt-driven I/O and programmed I/O performance.,CO6
+Differentiate between spooling and buffering in I/O management.,CO6
+Examine the RAID 6 double parity advantage over RAID 5.,CO6
+Analyze the seek time difference in FCFS versus SSTF disk scheduling.,CO6
+Compare the I/O performance of LOOK and C-SCAN disk algorithms.,CO6
+Differentiate between synchronous and asynchronous disk I/O operations.,CO6
+Evaluate the disk scheduling algorithm selection for multimedia servers.,CO6
+Assess the RAID 5 versus RAID 10 performance for transaction systems.,CO6
+Justify the use of DMA for high-speed network data transfers.,CO6
+Critique the SSTF disk scheduling fairness for interactive systems.,CO6
+Recommend the optimal RAID level for a high-availability storage.,CO6
+Evaluate the C-SCAN disk scheduling for disk arm wear reduction.,CO6
+Assess the performance of interrupt-driven versus DMA I/O systems.,CO6
+Justify the LOOK algorithm selection over SCAN for disk servers.,CO6
+Critique the FCFS disk scheduling for mixed I/O workloads.,CO6
+Evaluate the RAID 6 overhead versus fault tolerance benefits.,CO6
+Assess the DMA controller efficiency for large file I/O transfers.,CO6
+Justify the spooling implementation for printer queue management.,CO6
+Critique the RAID 0 usage for critical data storage systems.,CO6
+Evaluate the C-LOOK disk scheduling for database I/O workloads.,CO6
+Assess the disk scheduling trade-offs for SSD versus HDD storage.,CO6
+Justify the hardware RAID preference over software RAID.,CO6
+Evaluate the buffering strategies for I/O performance optimization.,CO6
+Assess the SSTF suitability for real-time I/O applications.,CO6
+Justify the RAID 10 selection for online transaction processing.,CO6
+Critique the FCFS disk scheduling for enterprise storage systems.,CO6
+Evaluate the DMA efficiency for bulk data transfer operations.,CO6
+Assess the disk I/O performance impact on database response time.,CO6
+Justify the C-SCAN algorithm for uniform disk wear distribution.,CO6
+Critique the interrupt-driven I/O overhead for high-frequency operations.,CO6
+Evaluate the RAID configuration for a cloud object storage system.,CO6
+Assess the disk scheduling policy impact on OS I/O throughput.,CO6
+Justify the LOOK disk scheduling selection for web server storage.,CO6
+Critique the RAID 5 write penalty for write-intensive workloads.,CO6
+Evaluate the performance of spooling for batch job I/O processing.,CO6
+Recommend an I/O scheduling policy for a high-performance computing OS.,CO6
+Formulate an OS architecture for autonomous vehicle control system.,CO1
+Construct a security-focused OS kernel design for cloud platforms.,CO1
+Create a virtual machine design for multi-tenant cloud computing.,CO1
+Develop an OS framework for large-scale IoT device management.,CO1
+Construct a process synchronization framework for distributed systems.,CO2
+Formulate a real-time CPU scheduling policy for autonomous systems.,CO2
+Create a thread management system for cloud microservices.,CO2
+Propose a CPU scheduling framework for heterogeneous computing.,CO2
+Construct a memory management framework for serverless computing.,CO3
+Formulate a page replacement strategy for NVM storage systems.,CO3
+Create a virtual memory architecture design for mobile OS.,CO3
+Propose a memory compression scheme for embedded real-time systems.,CO3
+Construct a file system design for distributed cloud storage.,CO4
+Formulate a file recovery strategy for journaling file systems.,CO4
+Create a file access control model for enterprise OS systems.,CO4
+Propose a versioned file system for collaborative editing platforms.,CO4
+Construct a deadlock avoidance protocol for distributed transactions.,CO5
+Formulate a resource allocation framework for deadlock-free cloud OS.,CO5
+Create a deadlock detection system for microservice OS architectures.,CO5
+Propose a deadlock prevention strategy for database transaction systems.,CO5
+Construct an adaptive disk scheduling algorithm for mixed I/O workloads.,CO6
+Formulate an I/O optimization framework for cloud storage systems.,CO6
+Create a RAID management system for enterprise data center storage.,CO6
+Propose an intelligent I/O scheduler for NVM storage devices.,CO6

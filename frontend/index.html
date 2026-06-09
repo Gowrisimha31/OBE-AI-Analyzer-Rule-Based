@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OBE AI Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>OBE AI Analyzer</h1>
+
+    <textarea
+        id="question"
+        placeholder="Enter one question or multiple questions (one per line)"
+    ></textarea>
+
+    <div class="button-group">
+
+        <button type="button" onclick="analyzeQuestion()">
+            Single Analysis
+        </button>
+
+        <button type="button" onclick="bulkAnalysis()">
+            Bulk Analysis
+        </button>
+
+        <button type="button" onclick="exportCSV()">
+            Export CSV
+        </button>
+
+        <button type="button" onclick="clearHistory()">
+            Clear History
+        </button>
+
+    </div>
+    <div class="button-group">
+
+        <label for="csvFile" style="display: inline-block; padding: 15px 30px; background: #8B4513; color: white; border-radius: 10px; cursor: pointer; font-size: 18px; transition: 0.3s;">
+            Upload CSV
+        </label>
+        <input type="file" id="csvFile" accept=".csv" style="display: none;" onchange="handleCSVUpload()">
+
+        <label for="pdfFile" style="display: inline-block; padding: 15px 30px; background: #8B4513; color: white; border-radius: 10px; cursor: pointer; font-size: 18px; transition: 0.3s; margin-left: 10px;">
+            Upload PDF
+        </label>
+        <input type="file" id="pdfFile" accept=".pdf" style="display: none;" onchange="handlePDFUpload()">
+
+    </div>
+   <div class="card">
+
+    <div id="stats">
+
+        <h2>Dashboard Statistics</h2>
+
+        <div class="stats-container">
+
+            <div class="stat-card">
+                <h3 id="totalQuestions">0</h3>
+                <p>Total Questions</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="bloomLevels">0</h3>
+                <p>Bloom Levels</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="coCovered">0</h3>
+                <p>CO Covered</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 id="poCovered">0</h3>
+                <p>PO Covered</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="card">
+
+        <h2>Bloom Distribution</h2>
+
+        <div style="max-width: 400px; margin: 0 auto;">
+            <canvas id="bloomChart"></canvas>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Course Outcome Distribution</h2>
+
+        <div style="max-width: 600px; margin: 0 auto;">
+            <canvas id="coChart"></canvas>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Coverage Report</h2>
+
+        <div id="coverageReport" style="display: none;">
+            <h3>Basic Statistics</h3>
+            <p>Total Questions: <strong id="reportTotalQuestions">0</strong></p>
+            <p>Unique Bloom Levels: <strong id="reportUniqueBlooms">0</strong></p>
+            <p>Unique COs: <strong id="reportUniqueCOs">0</strong></p>
+            <p>Unique POs: <strong id="reportUniquePOs">0</strong></p>
+
+            <h3>Bloom Distribution</h3>
+            <pre id="reportBloomDist"></pre>
+
+            <h3>CO Distribution</h3>
+            <pre id="reportCODist"></pre>
+
+            <h3>Coverage Evaluation</h3>
+            <div id="reportCoverageEval"></div>
+
+            <button type="button" onclick="downloadPDFReport()" style="margin-top: 15px; padding: 10px 20px; background: #795548; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Download PDF Report
+            </button>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Bloom Level</h2>
+
+        <p id="bloom"></p>
+
+        <small id="bloomExplanation"></small>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Course Outcome</h2>
+
+        <p id="co"></p>
+
+        <small id="coExplanation"></small>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Program Outcomes</h2>
+
+        <p id="po"></p>
+
+        <small id="poExplanation"></small>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Bulk Analysis Results</h2>
+
+        <div id="summary"></div>
+
+        <table id="resultTable">
+
+            <thead>
+
+                <tr>
+                    <th>Question</th>
+                    <th>Bloom</th>
+                    <th>CO</th>
+                    <th>PO</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tableBody"></tbody>
+
+        </table>
+
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>

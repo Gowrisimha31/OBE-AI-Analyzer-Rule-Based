@@ -1,0 +1,43 @@
+unit,topic
+1,What operating systems do
+1,Operating System Structure
+1,Operating System Operations
+1,Operating System Services
+1,System Calls
+1,Types of System Calls
+2,Process Concept
+2,Process Scheduling
+2,Process Creation and Termination
+2,Scheduling Criteria
+2,FCFS Scheduling
+2,Pre-emptive SJF
+2,Non-preemptive SJF
+2,Priority Scheduling
+2,Round Robin Scheduling
+3,Critical Section Problem
+3,Peterson Solution
+3,Mutex Locks
+3,Semaphores
+3,Bounded Buffer Problem
+3,Readers Writers Problem
+3,Deadlock Characterization
+3,Deadlock Prevention
+3,Deadlock Avoidance
+3,Deadlock Detection
+3,Deadlock Recovery
+4,Contiguous Memory Allocation
+4,Paging
+4,Virtual Memory
+4,Demand Paging
+4,FIFO Page Replacement
+4,LRU Page Replacement
+4,Optimal Page Replacement
+5,File Concept
+5,Access Methods
+5,File Protection
+5,Mass Storage Structures
+5,Disk Scheduling Algorithms
+5,Goals of Protection
+5,Principles of Protection
+5,Domain of Protection
+5,Access Matrix

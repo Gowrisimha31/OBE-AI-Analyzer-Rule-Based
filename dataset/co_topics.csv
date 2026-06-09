@@ -1,0 +1,47 @@
+topic,co
+What operating systems do,CO1
+Operating System Structure,CO1
+Operating System Operations,CO1
+Operating System Services,CO1
+System Calls,CO1
+Types of System Calls,CO1
+
+Process Concept,CO2
+Process Scheduling,CO2
+Process Creation and Termination,CO2
+Scheduling Criteria,CO2
+FCFS Scheduling,CO2
+Pre-emptive SJF,CO2
+Non-preemptive SJF,CO2
+Priority Scheduling,CO2
+Round Robin Scheduling,CO2
+
+Critical Section Problem,CO3
+Peterson Solution,CO3
+Mutex Locks,CO3
+Semaphores,CO3
+Bounded Buffer Problem,CO3
+Readers Writers Problem,CO3
+Deadlock Characterization,CO3
+Deadlock Prevention,CO3
+Deadlock Avoidance,CO3
+Deadlock Detection,CO3
+Deadlock Recovery,CO3
+
+Contiguous Memory Allocation,CO4
+Paging,CO4
+Virtual Memory,CO4
+Demand Paging,CO4
+FIFO Page Replacement,CO4
+LRU Page Replacement,CO4
+Optimal Page Replacement,CO4
+
+File Concept,CO5
+Access Methods,CO5
+File Protection,CO5
+Mass Storage Structures,CO5
+Disk Scheduling Algorithms,CO5
+Goals of Protection,CO5
+Principles of Protection,CO5
+Domain of Protection,CO5
+Access Matrix,CO5
