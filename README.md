@@ -2,11 +2,11 @@
 
 ## Overview
 
-OBE AI Analyzer is a Rule-Based Educational Analytics System developed for Outcome Based Education (OBE) analysis of Operating Systems question papers.
+OBE AI Analyzer is a rule-based educational analytics system developed for Outcome-Based Education (OBE) analysis of Operating Systems question papers.
 
-The system automatically classifies questions according to Bloom's Taxonomy, maps them to Course Outcomes (COs) and Program Outcomes (POs), generates coverage reports, visualizes academic analytics through dashboards, and supports CSV/PDF-based question paper analysis.
+The system automatically classifies questions according to Bloom's Taxonomy, maps them to Course Outcomes (COs) and Program Outcomes (POs), performs bulk analysis, generates academic coverage reports, and provides dashboard-based analytics.
 
-This project is implemented entirely using rule-based techniques without Machine Learning.
+This version is implemented entirely using rule-based techniques without Machine Learning.
 
 ---
 
@@ -27,54 +27,87 @@ Classifies questions into:
 
 Maps questions to:
 
-* CO1
-* CO2
-* CO3
-* CO4
-* CO5
+* CO1 – Operating System Fundamentals and System Calls
+* CO2 – Process Management and CPU Scheduling
+* CO3 – Synchronization and Deadlock Management
+* CO4 – Memory Management and Virtual Memory
+* CO5 – File Systems, Storage, and Protection
 
 ### Program Outcome (PO) Mapping
 
 Maps questions to:
 
-* PO1
-* PO2
-* PO3
-* PO4
-* PO5
+* PO1 – Engineering Knowledge
+* PO2 – Problem Analysis
+* PO3 – Design / Development of Solutions
+* PO4 – Investigation of Complex Problems
+* PO5 – Modern Tool Usage
 
-### Analysis Modes
+---
 
-* Single Question Analysis
-* Bulk Question Analysis
+## Analysis Modes
 
-### Dashboard Analytics
+### Single Question Analysis
 
-* Total Questions Analyzed
-* Bloom Levels Covered
-* CO Coverage
-* PO Coverage
+Analyze an individual question and obtain:
 
-### Visualization
+* Bloom Level
+* Course Outcome
+* Program Outcomes
 
-* Bloom Distribution Chart
-* CO Distribution Chart
+### Bulk Question Analysis
 
-### Reporting
+Analyze multiple questions simultaneously and generate:
 
-* Question Paper Coverage Report
-* PDF Report Generation
-* CSV Export
+* Bloom Distribution
+* CO Distribution
+* Coverage Statistics
 
-### File Upload Support
+---
 
-* CSV Question Upload
-* PDF Question Paper Upload
+## Dashboard Analytics
 
-### History Tracking
+The dashboard provides:
 
-* Prediction History Storage
-* Statistical Analysis from Historical Data
+* Total Analyses Performed
+* Most Common Bloom Level
+* Most Common Course Outcome
+* Historical Analysis Statistics
+
+---
+
+## Reporting
+
+### CSV Export
+
+Export bulk analysis results to CSV format for further academic review and documentation.
+
+### Coverage Analysis
+
+Automatically generates:
+
+* Bloom Taxonomy Distribution
+* Course Outcome Distribution
+* Question Coverage Summary
+
+---
+
+## History Tracking
+
+Stores analysis history and provides statistical insights from previously analyzed questions.
+
+---
+
+## Dataset Information
+
+Current Dataset Size:
+
+| Dataset       | Records        |
+| ------------- | -------------- |
+| Bloom Dataset | 973 Questions  |
+| CO Dataset    | 1032 Questions |
+
+The datasets were manually curated and expanded using Operating Systems question banks.
 
 ---
 
@@ -102,10 +135,10 @@ OBE_AI_ANALYZER_V2/
 │   ├── predict_co.py
 │   ├── predict_po.py
 │   ├── history_manager.py
-│   └── pdf_extractor.py
+│   └── helper_scripts.py
 │
+├── models/
 ├── uploads/
-├── requirements.txt
 └── README.md
 ```
 
@@ -124,16 +157,10 @@ OBE_AI_ANALYZER_V2/
 * HTML
 * CSS
 * JavaScript
-* Chart.js
 
-### Reporting
+### Data Storage
 
-* ReportLab
-
-### File Processing
-
-* CSV Processing
-* PDF Text Extraction
+* CSV Files
 
 ---
 
@@ -141,14 +168,14 @@ OBE_AI_ANALYZER_V2/
 
 ### Step 1
 
-Upload or enter one or more Operating Systems questions.
+Enter one or more Operating Systems questions.
 
 ### Step 2
 
 The system performs:
 
 * Bloom Taxonomy Classification
-* Course Outcome Mapping
+* Course Outcome Prediction
 * Program Outcome Mapping
 
 ### Step 3
@@ -156,12 +183,12 @@ The system performs:
 Results are displayed through:
 
 * Analysis Dashboard
-* Charts
-* Coverage Reports
+* Coverage Statistics
+* Distribution Reports
 
 ### Step 4
 
-Generate downloadable reports in PDF format.
+Results can be exported as CSV files.
 
 ---
 
@@ -202,46 +229,40 @@ http://127.0.0.1:5000
 ## Sample Workflow
 
 ```text
-Upload Question Paper
-          ↓
-Extract Questions
-          ↓
+Enter Question(s)
+        ↓
 Bloom Classification
-          ↓
-CO Mapping
-          ↓
+        ↓
+CO Prediction
+        ↓
 PO Mapping
-          ↓
+        ↓
 Coverage Analysis
-          ↓
-Dashboard Visualization
-          ↓
-Generate PDF Report
+        ↓
+Dashboard Statistics
+        ↓
+CSV Export
 ```
 
 ---
 
 ## Screenshots
 
-### Dashboard
+### Main Dashboard
 
-*Add dashboard screenshot here*
+(Add screenshot)
 
-### Bloom Distribution Chart
+### Single Question Analysis
 
-*Add Bloom Chart screenshot here*
+(Add screenshot)
 
-### CO Distribution Chart
+### Bulk Analysis
 
-*Add CO Chart screenshot here*
+(Add screenshot)
 
-### Coverage Report
+### Coverage Statistics
 
-*Add Coverage Report screenshot here*
-
-### PDF Upload and Analysis
-
-*Add PDF Upload screenshot here*
+(Add screenshot)
 
 ---
 
@@ -253,7 +274,7 @@ This system can be used by:
 * Course Coordinators
 * Academic Auditors
 * Accreditation Teams
-* Outcome Based Education Analysts
+* Outcome-Based Education Analysts
 
 ---
 
@@ -263,24 +284,26 @@ This system can be used by:
 * No Machine Learning Used
 * Real-Time Question Analysis
 * OBE-Focused Evaluation
-* Interactive Dashboard
-* Automated Report Generation
-* CSV and PDF Support
-* Suitable for Academic Institutions
+* Bulk Question Processing
+* CSV Export Support
+* Historical Analytics Tracking
+* Expanded Academic Dataset
+* Lightweight and Easy to Deploy
 
 ---
 
 ## Future Scope
 
-### Version 2 (Machine Learning Based)
+### Version 2: Machine Learning Edition
 
-Future enhancements may include:
+Planned enhancements include:
 
 * Machine Learning-Based Bloom Classification
 * Automated CO Prediction Models
-* Recommendation Engine for Question Paper Improvement
-* Advanced Analytics Dashboard
-* Model Performance Comparison
+* NLP-Based Question Understanding
+* Performance Evaluation Metrics
+* Accuracy Comparison with Rule-Based System
+* Advanced Academic Analytics Dashboard
 
 ---
 
@@ -288,10 +311,13 @@ Future enhancements may include:
 
 **Gowri Simha**
 
-Developed as an academic project for Outcome Based Education (OBE) analysis of Operating Systems question papers.
+Developed as an academic project for Outcome-Based Education (OBE) analysis of Operating Systems question papers.
 
 ---
 
 ## License
 
 This project is intended for educational and academic use.
+
+screenshots
+<img width="949" height="498" alt="image" src="https://github.com/user-attachments/assets/90fd2c28-6c12-4484-a8eb-76cb7402da18" />
