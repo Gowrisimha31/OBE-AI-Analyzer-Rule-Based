@@ -399,68 +399,6 @@ def upload_csv():
         return jsonify({"error": str(e)}), 500
 
 
-@app.route("/upload_pdf", methods=["POST"])
-def upload_pdf():
-    try:
-        if 'file' not in request.files:
-            return jsonify({"error": "No file provided"}), 400
-
-        file = request.files['file']
-
-        if file.filename == '':
-            return jsonify({"error": "No file selected"}), 400
-
-        if not file.filename.endswith('.pdf'):
-            return jsonify({"error": "Only PDF files are allowed"}), 400
-
-        # Try to use pdf_extractor if available
-        try:
-            from scripts.pdf_extractor import extract_questions_from_pdf
-            questions = extract_questions_from_pdf(file)
-        except ImportError:
-            return jsonify({"error": "PDF extraction module not available"}), 400
-        except Exception as e:
-            return jsonify({"error": f"PDF extraction failed: {str(e)}"}), 400
-
-        if not questions:
-            return jsonify({"error": "No questions could be extracted from PDF"}), 400
-
-        # Run bulk analysis
-        results = []
-        bloom_count = {}
-        co_count = {}
-
-        for question in questions:
-            bloom = predict_bloom(question)
-            co = predict_co(question)
-            po = predict_po(question)
-
-            save_prediction(question, bloom, co, po)
-
-            bloom_count[bloom] = bloom_count.get(bloom, 0) + 1
-            co_count[co] = co_count.get(co, 0) + 1
-
-            results.append({
-                "question": question,
-                "bloom": bloom,
-                "co": co,
-                "po": po
-            })
-
-        global SESSION_ANALYSIS_COUNT
-        SESSION_ANALYSIS_COUNT += len(questions)
-
-        return jsonify({
-            "total_questions": len(questions),
-            "bloom_distribution": bloom_count,
-            "co_distribution": co_count,
-            "results": results
-        })
-
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
-
 @app.route("/generate_pdf_report", methods=["POST"])
 def generate_pdf_report():
     try:
